@@ -149,4 +149,7 @@ for (var i = 0; i < arr_15.length; i++) {
 console.log ('sum = ' + sum);
 
 
+var arr_16 = [2,1,4,'sdf',NaN, undefined, 4, 7,9];
+
+
 
