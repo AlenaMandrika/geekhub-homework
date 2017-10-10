@@ -15,6 +15,7 @@ function sumArr (arr, action) {
 console.log(sumArr(arr,'sum'));
 
 
+
 var arr_1 = [2, -1, 4, 'sdf', NaN, undefined, 4, 7, 9];
 function maxArr (arr, action) {
     if (action === 'max') {
@@ -29,6 +30,7 @@ function maxArr (arr, action) {
     }
 }
 console.log(maxArr(arr_1,'max'));
+
 
 
 var arr_2 = [2, -1, 4, 'sdf', NaN, undefined, 4, 7, 9];
