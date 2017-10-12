@@ -100,6 +100,73 @@ console.log(min(arr_5,'min'));
 
 
 
+var arr_6 = [undefined, -3, -4];
+function max_arr (arr, action) {
+    if (action === 'max') {
+        for (var i = 0; i < arr.length; i++) {
+            if (typeof arr[i] === 'number' && !isNaN(arr[i])) {
+                var max = arr[i];
+                break;
+            }
+        }
+        for (var i = 0; i < arr.length; i++) {
+            if (typeof arr[i] === 'number' && !isNaN(arr[i])) {
+                if (max < arr[i]) {
+                    max = arr[i]
+                }
+            }
+        }
+        return max;
+    }
+}
+console.log(max_arr(arr_6,'max'));
+
+
+
+var arr_7 = [undefined, -3, -4];
+function min_arr (arr, action) {
+    if (action === 'min') {
+        for (var i = 0; i < arr.length; i++) {
+            if (typeof arr[i] === 'number' && !isNaN(arr[i])) {
+                var min = arr[i];
+                break;
+            }
+        }
+        for (var i = 0; i < arr.length; i++) {
+            if (typeof arr[i] === 'number' && !isNaN(arr[i])) {
+                if (min > arr[i]) {
+                    min = arr[i]
+                }
+            }
+        }
+        return min;
+    }
+}
+console.log(min_arr(arr_7,'min'));
+
+
+
+var arr_8 = [undefined, -3, -4];
+function sum_arr (arr, action) {
+    if (action === 'sum') {
+        var sum = 0;
+        for (var i = 0; i < arr.length; i++) {
+            if (typeof arr[i] === 'number' && !isNaN(arr[i])) {
+                sum += arr[i]
+            }
+        }
+        return sum;
+    }
+}
+console.log(sum_arr(arr_8,'sum'));
+
+
+
+
+
+
+
+
 
 
 
