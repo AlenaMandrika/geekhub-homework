@@ -162,18 +162,10 @@ console.log(sum_arr(arr_8,'sum'));
 
 
 
-
 var arr_9 = [undefined, -3, -4];
-var min,
-    max,
-    sum = 0;
-for (i = 0; i < arr_9.length; i++) {
-    if (typeof arr_9[i] === 'number' && !isNaN(arr_9[i])) {
-        var min = arr_9[i];
-        var max = arr_9[i];
-        break;
-    }
-}
+var sum = 0;
+    min;
+    max;
 for (i = 0; i < arr_9.length; i++) {
     if (typeof arr_9[i] === 'number' && !isNaN(arr_9[i])) {
         sum += arr_9[i];
@@ -188,17 +180,4 @@ for (i = 0; i < arr_9.length; i++) {
 console.log('sum = ', sum);
 console.log('min = ', min);
 console.log('max = ', max);
-
-
-
-
-
-
-
-
-
-
-
-
-
 
